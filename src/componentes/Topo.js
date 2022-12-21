@@ -4,13 +4,13 @@ import { View, Image, StyleSheet, Dimensions, TouchableOpacity } from 'react-nat
 import Texto from './Texto';
 
 import Gradiente from '../assets/gradiente.svg';
-import Topo from '../assets/topo.png';
+import topo from '../assets/topo.png';
 import VoltarSVG from '../assets/voltar.svg';
 
 const largura = Dimensions.get('screen').width;
 const ALTURA_PADRAO = 270;
 
-export default function Topo({ titulo, imagem = Topo, altura = ALTURA_PADRAO }) {
+export default function Topo({ titulo, imagem = topo, altura = ALTURA_PADRAO }) {
   const estilos = funcaoEstilos(altura);
   return <>
     <Image source={imagem} style={estilos.topo} />

@@ -2,7 +2,7 @@ import { useRoute } from '@react-navigation/native';
 import React from 'react';
 import { FlatList, StyleSheet, Text, View } from 'react-native';
 import Cesta from './componentes/Cesta';
-import Topo from '../../Topo'
+import Topo from '../../componentes/Topo';
 import useTextos from '../../hooks/useTextos'
 import topo from '../../assets/produtores/topo.png'
 

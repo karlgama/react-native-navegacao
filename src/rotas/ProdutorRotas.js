@@ -1,4 +1,4 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack'
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import React from 'react'
 import Produtor from '../telas/Produtor';
 import Home from '../telas/Home';
